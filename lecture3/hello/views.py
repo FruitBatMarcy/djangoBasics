@@ -4,7 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse('Im actually gonna do it')
+    return HttpResponse('Goin funky mode')
 
 def greet(request, name):
     return render(request, "hello/greet.html", {
